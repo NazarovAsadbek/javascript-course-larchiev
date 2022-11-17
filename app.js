@@ -69,5 +69,26 @@ console.log('Hello world!', lastName1, name1, name2, lastname2);
 */
 
 
-const age = 22; // Примитив === Не мутабелен. При изменение, предыдущее значение очищатся и записывается новое
-const user = {name: 'Asadbek', age: '22'} // Объекты == Мутабельны 
+// Типы данных
+
+// const age = 22; // Примитив === Не мутабелен. При изменение, предыдущее значение очищатся и записывается новое
+// const user = {name: 'Asadbek', age: '22'} // Объекты == Мутабельны 
+
+/* 
+	// Примитивные типы:
+	const age = 22; // Числа
+	const surname = 'Назаров'; // Строки 
+	const isAdmin = true; // Булево значения
+	const phone = undefined; let data; // Не заданное значение
+	const result = null; // Пустое значение
+	const admin = Symbol('Admin'); // Уникальное неизменное значение
+	const big = BigInt(99999999999999999n) // Работа с большими числами
+	console.log(typeof big, typeof admin);
+*/
+
+const payRateUSD = 80;
+const projectHours = 40;
+const availableHours = (11 - 2) * 5;
+// Результат
+console.log('Смогу ли я работать? ' + (availableHours > projectHours)); 
+console.log('Стоимость работ: ' + projectHours * payRateUSD);
