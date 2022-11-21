@@ -1,4 +1,4 @@
-/*  
+/*
 	let name1 = 'Asadbek';
 	let lastName1 = 'Nazarov';
 	const name2 = 'Artur';
@@ -86,9 +86,114 @@ console.log('Hello world!', lastName1, name1, name2, lastname2);
 	console.log(typeof big, typeof admin);
 */
 
-const payRateUSD = 80;
-const projectHours = 40;
-const availableHours = (11 - 2) * 5;
-// Результат
-console.log('Смогу ли я работать? ' + (availableHours > projectHours)); 
-console.log('Стоимость работ: ' + projectHours * payRateUSD);
+// const payRateUSD = 80;
+// const projectHours = 40;
+// const availableHours = (11 - 2) * 5;
+// // Результат
+// console.log('Смогу ли я работать? ' + (availableHours > projectHours));
+// console.log('Стоимость работ: ' + projectHours * payRateUSD);
+
+
+// const role = 'manager';
+//
+// if (role === 'manager') {
+//     console.log('Менеджер')
+// } else if (role === 'admin') {
+//     console.log("Админ")
+// } else if (role === 'ceo') {
+//     console.log('CEO')
+// } else {
+//     console.log('Мы тебя не знаем!')
+// }
+
+// switch (role) {
+//     case "manager":
+//     case "admin":
+//         console.log('Админ')
+//         break
+//     case "ceo":
+//         console.log('CEO')
+//         break
+//     default:
+//         console.log('Мы тебя не знаем!')
+// }
+
+// const bmwX3Price = 100000;
+// const fordFocusPrice = 10000;
+// const budget = 20000;
+// console.log(`Я хочу купить ${ budget > bmwX3Price ? 'БМВ' : 'ФОРД ФОКУС' }`)
+
+
+// const question = 'Сколько будет 7 + или - 15';
+// const request = prompt(question, 0)
+
+// 1 вариант
+// Number(request) === 22 || Number(request) === -8 ? console.log('Успех') : console.log('Провал')
+// 2 вариант
+// switch (true) {
+//     case request === 'Я не робот':
+//     case Number(request) === 22:
+//     case Number(request) === -8:
+//         console.log('Успех')
+//         break;
+//     default:
+//         console.log('Вы робот')
+// }
+
+//
+// let username = '';
+// console.log(username || 'Default username');
+// console.log(true && 'd' ?? '');
+
+// function logName(name) {
+//     console.log(`Моё имя ${name}`)
+// }
+// logName('Asadbek')
+
+// function countDepositSum(depositInUSD, month, rate) {
+//     return depositInUSD * (1 + rate / 12) ** month;
+// }
+//
+// const dep1 = countDepositSum(534, 12, 0.20)
+// console.log(dep1)
+// const poft = function (num) {
+//     return num * num
+// }
+// console.log(poft(2))
+// const powerOfTwo = num => num * num
+// console.log(powerOfTwo(35))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
