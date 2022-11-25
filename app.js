@@ -163,6 +163,133 @@ console.log('Hello world!', lastName1, name1, name2, lastname2);
 // const powerOfTwo = num => num * num
 // console.log(powerOfTwo(35))
 
+// Chapter 8. Arrays
+/*
+const roles = ['admin', 'user', 'superuser']
+const userInfo = ['Anna', 25]
+console.log(roles.at(-1))
+
+const userNames = new Array('Asadbek', 'Artur', 'Kamil')
+console.log(userNames)
+
+function square(el) {
+    return el * el;
+}
+*/
+
+// const users = ['Asadbek', 'Artur', 'Kamil', 'Rishan']
+// users[2] = 'Kiril'
+// users[5] = 'Shahzod'
+// users.unshift('Roma')
+// users.pop()
+
+// const roles = ['user', 'admin', 'manager']
+// console.log(roles.join('/'))
+// console.log(roles.indexOf('admin'))
+// console.log(roles.includes('admin'))
+// console.log(roles.slice(1, 2))
+// console.log(roles.splice(0))
+// console.log(roles.reverse())
+// console.log(roles.concat(['sysadmin', 'developer']))
+
+// const url = 'auth/user/login'
+// const res = url.split('/')
+// console.log(res)
+
+/*
+const tasks = ['Task 1']
+console.log(tasks)
+
+function Add(task) {
+    tasks.push(task)
+}
+
+function Remove(task) {
+    const index = tasks.indexOf(task)
+    if (index === -1) {
+        return;
+    }
+    return tasks.splice(index, 1)
+}
+
+function Prioritize(task) {
+    const result = Remove(task)
+    if (result) {
+        tasks.unshift(result[0])
+    }
+}
+
+
+Add('Task 2')
+Add('Task 3')
+console.log(tasks)
+Remove('Task 2')
+console.log(tasks)
+Prioritize('Task 3')
+console.log(tasks)
+*/
+
+/* const url = 'https://purpleschool.ru/course/javascript'
+function getUrlParse(url) {
+    const [protocol, _, host, ...path] = url.split('/')
+    console.log(protocol, host, path)
+}
+
+getUrlParse(url)
+*/
+
+
+// let arr = ['1', '2', '3', '4'];
+// console.log(arr.slice(2, -1));
+
+/* for (let i = 1; i < 10; i++) {
+    console.log(`Current balance ${i}$`)
+}
+*/
+/*
+const tasks = ['Task 1', 'Task 2', 'Task 3']
+
+for (let i = 0; i < tasks.length; i++) {
+    if (tasks[i] === 'Task 2') {
+        continue;
+    }
+    console.log(tasks[i])
+}
+console.log('------')
+for (let i = 0; i < tasks.length; i++) {
+    if (tasks[i] === 'Task 2') {
+        break;
+    }
+    console.log(tasks[i])
+}
+*/
+/*
+const arr = ['!', 'JS', 'love', 'i']
+const res = []
+for (let i = arr.length - 1; i >= 0; i--) {
+    res.push(arr[i])
+}
+
+console.log(res.join(' '))
+*/
+
+for (let i = 1; i < 5; i++) {
+    console.log(`While 1 - ${i}`)
+    for (let j = 1; j < 5; j++) {
+        console.log(`While 2 - ${i}`)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
