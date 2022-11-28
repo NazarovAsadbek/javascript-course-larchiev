@@ -273,17 +273,28 @@ for (let i = arr.length - 1; i >= 0; i--) {
 console.log(res.join(' '))
 */
 
-for (let i = 1; i < 5; i++) {
-    console.log(`While 1 - ${i}`)
-    for (let j = 1; j < 5; j++) {
-        console.log(`While 2 - ${i}`)
-    }
-}
+// for (let i = 1; i < 5; i++) {
+//     console.log(`While 1 - ${i}`)
+//     for (let j = 1; j < 5; j++) {
+//         console.log(`While 2 - ${i}`)
+//     }
+// }
+//
+// const score = [5, 10, 0, 15]
+// for (const [i, el] of score.entries()) {
+//     console.log(i + 1, el)
+// }
 
+// const score = [5, 10, 0, 15]
+// score.forEach((el, i, item) => {
+//     console.log(el, i, item)
+// })
 
+const transactionInUSD = [10, -7, 50, -10, 100]
 
-
-
+console.log(score.map((el, i, arr) => {
+    return el + 1
+}))
 
 
 
