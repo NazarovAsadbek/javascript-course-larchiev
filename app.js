@@ -290,48 +290,63 @@ console.log(res.join(' '))
 //     console.log(el, i, item)
 // })
 
-const transactionInUSD = [10, -7, 50, -10, 100]
+// const transactionInUSD = [10, -7, 50, -10, 100]
+//
+// console.log(transactionInUSD.map((el, i, arr) => {
+//     return el * 11050
+// }))
 
-console.log(score.map((el, i, arr) => {
-    return el + 1
-}))
+// const prices = [[100, 200], [120, 100], [200, 350]]
+//
+// const deltaCPrices = prices
+//     .filter(i => i[1] > i[0])
+//     .map(i => i[1] - i[0])
+// console.log(deltaCPrices)
+
+// const operations = [100, -20, 7, -30, 50]
+//
+// const res = operations.reduce((acc, val) => acc + val, 0)
+//
+// console.log(res)
+
+// const users = ['Asad', 'Kamil', 'Ara', 'Rishan']
+// const transactions = [50, 50, -75, 24]
+//
+// console.log(users.sort())
+// console.log(transactions.sort((a, b) => {
+//     if (a > b) {
+//         return 1;
+//     } else if (a < b) {
+//         return -1
+//     }
+// }))
+// console.log(transactions.sort((a, b) => {
+//     if (a > b) {
+//         return -1;
+//     } else if (a < b) {
+//         return 1
+//     }
+// }))
+
+// const arr = [1, 2, 3, 4, 5];
+//
+// console.log(arr)
+// console.log(new Array(1, 2, 3, 4, 5))
+// console.log(new Array(5))
+// console.time('time')
+// const arr = Array.from({length: 1000000}, (cur, i) => i + Math.random() * 100000)
+// for (let i in arr) {
+//     console.log(i)
+// }
+// console.timeEnd('time')
+//
+// const arr3 = Array.from({length: 5}, (cur, i) => i + 1)
+// console.log(arr3)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// const test = 'test1234567'
+//
+// console.log(test.slice(0, -5))
 
 
 
