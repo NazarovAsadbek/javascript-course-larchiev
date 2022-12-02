@@ -1,3 +1,4 @@
+'use strict'
 /*
 	let name1 = 'Asadbek';
 	let lastName1 = 'Nazarov';
@@ -347,6 +348,146 @@ console.log(res.join(' '))
 // const test = 'test1234567'
 //
 // console.log(test.slice(0, -5))
+
+
+// const wallet = {
+//     balance: 0,
+//     operations: [],
+//     increase: function (sum, reason) {
+//         this.balance += sum;
+//         this.operations.push({
+//             reason, sum
+//         })
+//         return true
+//     },
+//     decrease: function (sum, reason) {
+//         if (this.balance < sum) {
+//             console.log("Недостаточно денег")
+//             return false
+//         }
+//         this.operations.push({
+//             reason, sum
+//         })
+//         this.balance -= sum
+//         return true
+//     },
+//     getOperationLength: function () {
+//         return this.operations.length
+//     }
+// }
+//
+// console.log(wallet.increase(1000, 'Sallary'))
+// console.log(wallet.getOperationLength())
+// console.log(wallet.decrease(750, 'Iphone'))
+// console.log(wallet.getOperationLength())
+// console.log(wallet.balance)
+
+
+// const cities = {
+//     msk: {
+//         let: 200,
+//         temp: 25
+//     },
+//     spb: {
+//         lt: 100,
+//         temp: 20
+//     }
+// }
+//
+// let sumTemp = 0;
+// let citiesCount = Object.keys(cities).length;
+// for (const key in cities) {
+//     sumTemp += cities[key].temp
+// }
+//
+// console.log(sumTemp / citiesCount)
+
+
+// const user = {
+//     name: 'Asadbek',
+//     age: 22,
+//     city: 'Tashkent'
+// }
+//
+// const {age, ...userWithoutAge} = user
+// console.log(age, userWithoutAge)
+
+
+// const cities = {
+//     msK: {
+//         temp: {
+//             celcius: 25
+//         }
+//     },
+//     spb: {}
+// }
+//
+//
+// console.log(cities.spb.temp.celcius)
+
+// const user = {
+//     name: 'Anton',
+//     id: 1
+// }
+// const newUser = Object.assign({}, user); // 1 способ создание нового обьекта в ссылке
+// const newUser = {
+//     ...user
+// }; // 2 способ создание нового обьекта в ссылке
+// user.name = 'NewUser'
+// console.log(user)
+// console.log(newUser)
+// if (true) {
+//     const b = '12321'
+// }
+// console.log(b)
+
+const successMessage = 'Success'
+const user = {
+    name: 'Asadbek',
+    roles: []
+}
+
+function addRole(user, role) {
+    if (role === 'admin') {
+        const message = 'Error';
+        console.log(message)
+        return user
+    }
+    user.roles.push(role)
+    console.log(successMessage)
+    return user
+}
+
+console.log(addRole(user, 'dev'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
